@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #8d6879;
+}
+
+p {
+    padding: 15px;
+    margin: 0;
+    font-size: 150%;
+    color: black;
+    padding-top: 0;
+}
+
+.container {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    overflow: auto;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 175%;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#item1, #item2, #item3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: white;
+}
+
+#header-nav {
+    border: 0;
+    color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header, .icon-bar {
+    color: white;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    color: white;
+}
+
+.nav-header {
+    background-color: slategray;
+    border-radius: 0;
+    border: 0;
+    color: white;
+}
+
+.nav-brand {
+    color: white;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pages {
+    font-size: 150%;
+    text-align: center;
+}
+
+#pages {
+    display: none;
+    visibility: hidden;
+}
+
+.navbar-brand, #myNavbar {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a, header {
+    color: aliceblue;
+}
+
+@media screen and (max-width: 750px){
+    #pages {
+        display: block;
+        visibility: visible;
+    }
+}
+
+
+
+
